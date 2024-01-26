@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Didact Gothic";
+}
+
+body {
+    background-color: #061618; /* #FAF4D3 */
+    margin-top: 0.5rem;
+}
+
+.header-container {
+    text-align: center;
+}
+
+#main-header {
+    color: #D1AC00; /* #004643 #FAF4D3 */
+    font-family: 'Nova Flat';
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container {
+    background-color: #FAF4D3;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 50.5vh;
+    min-width: 42.5vh;
+}
+
+#enter-amt {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Dekko";
+}
+
+form select, input, button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+form #amount-input {
+    border: 1px solid grey;
+    font-size: 1.15rem;
+    height: 2.15rem;
+    padding-left: 0.5rem;
+    font-family: "Times New Roman";
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Dekko";
+}
+
+.select-container img{
+    max-width: 3.2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    padding: 0.15rem;
+}
+
+form select {
+    background-color: #FAF4D3;
+    font-size: 1rem;
+    width: auto;
+}
+
+.dropdown i {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.msg {
+    margin: 2.5rem 0 2.5rem 0;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#exchange-rate-btn {
+    height: 2.5rem;
+    background-color: #ff9655; /* #EDAE87 */
+    font-size: 1.32rem;
+    font-weight: bold;
+    font-family: "Dekko";
+}
+
+#exchange-rate-btn:hover {
+    cursor: pointer;
+    background-color: #f39053; /* #FF9C5E #EE8746 */
+}
+
